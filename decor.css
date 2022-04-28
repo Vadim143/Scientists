@@ -1,0 +1,47 @@
+#Main {
+	width: 400px;
+	height: 520px;
+	background-color: #EEEEEE;
+	padding: 20px;
+	border: 5px solid e4e4e4;
+	border-radius: 50px;
+}
+
+a {
+	color: black;
+}
+
+#foto{
+	margin-left:200px;
+}
+
+body{
+	font-family: 'Neucha', cursive;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover{
+	color: blue;
+}
+
+.name:hover{
+	color: black;
+}
+/* Кнопка */
+.btn{
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: #EEEEEE;
+	height: 30px;
+	width: 120px;
+	transition: 0.2s;
+	box-shadow: 5px 5px 0px 1px #313735;
+}
+
+
+.btn:active{
+	transform: translate(5px, 5px);
+	box-shadow: 0 0 0 0;
+}
